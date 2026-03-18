@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yaapex"
+    fetch="https://github.com/yaapex"
+    revision="16.2" />
+
+  <!--
+  <remove-project name="platform/build" />
+  <project path="build/make" name="build" remote="yaapex" />
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="build_soong" remote="yaapex" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="bionic" remote="yaapex" />
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="system_core" remote="yaapex" />
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="frameworks_av" remote="yaapex" />
+   -->
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="frameworks_base-16.2" remote="yaapex" />
+
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaapex" />
+
+  <remove-project name="packages_apps_DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="yaapex" />
+
+  <remove-project name="packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaapex" />
+
+  <remove-project name="packages_apps_Messaging" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaapex" />
+
+  <remove-project name="packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaapex" />
+
+  <remove-project name="packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaapex" />
+
+  <remove-project name="vendor_yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" />
+
+  <remove-project name="vendor_themes" />
+  <project path="vendor/themes" name="vendor_themes" remote="yaapex" />
+
+</manifest>
