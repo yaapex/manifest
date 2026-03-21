@@ -18,8 +18,28 @@
   <project path="frameworks/av" name="frameworks_av" remote="yaapex" />
    -->
 
+  <remove-project path="bionic" />
+  <project path="bionic" name="bionic" remote="yaapex" />
+
+  <remove-project name="build_make" />
+  <project path="build/make" name="build_make" remote="yaapex" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/base" name="frameworks_av" remote="yaapex" />
+
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="frameworks_base-16.2" remote="yaapex" />
+
+  <remove-project name="frameworks_native" />
+  <project path="frameworks/native" name="frameworks_native" remote="yaapex" />
 
   <remove-project name="packages_apps_Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaapex" />
