@@ -72,8 +72,5 @@
 
   <remove-project name="yaosp/vendor_google_pixel" />
   <remove-project name="yaosp/vendor_google_gms" />
-  <remove-project name="vendor_microg" />
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" />
-  <project path="vendor/microg" name="vendor_microg" remote="yaapex" />
-
 </manifest>
