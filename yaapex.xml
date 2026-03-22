@@ -4,22 +4,12 @@
   <remote name="yaapex"
     fetch="https://github.com/yaapex"
     revision="16.2" />
-
-  <!--
-  <remove-project name="platform/build" />
-  <project path="build/make" name="build" remote="yaapex" />
-  <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="build_soong" remote="yaapex" />
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="bionic" remote="yaapex" />
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="system_core" remote="yaapex" />
-  <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="frameworks_av" remote="yaapex" />
-   -->
-
+  
   <remove-project name="bionic" />
   <project path="bionic" name="bionic" remote="yaapex" />
+
+  <remove-project name="bootable_recovery" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="yaapex" />
 
   <remove-project name="build_make" />
   <project path="build/make" name="build_make" remote="yaapex" >
