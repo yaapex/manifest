@@ -55,7 +55,9 @@
   <project path="vendor/addons" name="vendor_addons" remote="yaapex" />
 
   <remove-project name="vendor_yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" >
+  <linkfile src="build.sh" dest="build.sh" />
+  </project>
 
   <remove-project name="vendor_themes" />
   <project path="vendor/themes" name="vendor_themes" remote="yaapex" />
