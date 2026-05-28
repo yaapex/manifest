@@ -165,7 +165,7 @@
   <!-- System -->
   <project path="system/apex" name="system_apex" remote="yaap" />
   <project path="system/bpf" name="system_bpf" remote="yaap" />
-  <project path="system/core" name="system_core" remote="yaap" />
+  <project path="system/core" name="system_core" remote="yaapex" />
   <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/libvintf" name="system_libvintf" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
