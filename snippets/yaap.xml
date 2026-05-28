@@ -183,12 +183,6 @@
 
   <!-- Vendor -->
   <project path="vendor/addons" name="vendor_addons" remote="yaapex" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="yaap" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="yaap" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="yaap" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="yaap" />
-  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="yaap" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaapex" />
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" />

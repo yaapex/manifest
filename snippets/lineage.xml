@@ -95,19 +95,27 @@
   <project path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-23.2-legacy-um" remote="lineage" />
   <project path="kernel/configs" name="android_kernel_configs" remote="lineage" revision="lineage-23.2"/>
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" revision="lineage-23.2" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-22.2" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="lineage-22.0" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/fm" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/wfd" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" />
-  <project path="vendor/qcom/opensource/core-utils-sys" remote="lineage" name="android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/core-utils-vendor" remote="lineage" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/display" remote="lineage" name="android_vendor_qcom_opensource_display" groups="qcom" />
-  <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />
-  <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" revision="lineage-23.2-legacy" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="android_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/commonsys/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pakala-video" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/core-utils-sys" name="android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.2" />
 
   <!-- Packages -->
   <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="lineage" revision="lineage-23.2" />
