@@ -195,7 +195,8 @@
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaapex" />
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="yaapex" >
+  <linkfile src="build.sh" dest="build.sh" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
 </manifest>
