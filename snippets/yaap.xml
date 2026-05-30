@@ -18,9 +18,9 @@
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="yaapex" />
   <project path="bionic" name="bionic" remote="yaapex" />
-  <project path="manifest" name="manifest" remote="yaap" />
+  <project path="manifest" name="manifest" remote="yaapex" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaapex" >
@@ -172,7 +172,7 @@
   <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="yaap" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="yaapex" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
 
